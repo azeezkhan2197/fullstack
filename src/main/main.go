@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/azeezkhan2197/fullstack/src/api"
+)
 
 func main() {
-	fmt.Println("Hello World")
+	api.Run()
 }
